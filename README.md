@@ -13,6 +13,7 @@
 > This repo demonstrates the architecture, UI, and outcomes of a working product.  
 > The production code and pipelines are proprietary and available **under NDA**.  
 > To request a demo: **akar@akar7a.onmicrosoft.com**
+> 
 >    **Tags:** `startup-tools` · `founder-support` · `groq` · `llm` · `pitchdeck` · `streamlit`
 
 # XQ – Human Judgment Layer Over AI Reports
