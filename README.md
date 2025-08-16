@@ -48,6 +48,8 @@ ReportLab (PDF)
 Streamlit (UI)
 SQLite (Local DB)
 
+Sample code in the "scripts" directory
+
 ## About Me
 
 I’m Arindam Kar — fractional CTO and systems thinker with 23+ years in enterprise IT and AI delivery.  
@@ -58,24 +60,10 @@ I specialize in **PoC development**, **AI workflows**, and **LLM-backed automati
 🏢 [GitHub Org: KriyaLab](https://github.com/KriyaLab)
 ## Architecture
 
-```sora
-title: XQ System Architecture
+<p align="center">
+  <img src="screenshots/system_arch.png" alt="Architecture Overview" width="750"/>
+</p>
 
-User[User Info Entry] --> IdeaForm[Idea Submission (One-liner, Desc, Context)]
-IdeaForm --> VET[🧠 VET: Viability Scoring via Groq LLM]
-VET --> SHAPE[🎯 SHAPE: Generate 2 Pivot/Refinement Options]
-SHAPE --> SCOPE[📐 SCOPE: MVP Build Plan]
-SCOPE --> LAUNCH[🚀 LAUNCH: GTM Strategy + 60-Day Roadmap]
-VET --> PDF1[🧾 PDF Generator]
-SHAPE --> PDF2[🧾 PDF Generator]
-SCOPE --> PDF3[🧾 PDF Generator]
-LAUNCH --> PDF4[🧾 PDF Generator]
-PDF1 --> Reports[📥 Downloadable Reports]
-PDF2 --> Reports
-PDF3 --> Reports
-PDF4 --> Reports
-User --> DB[🗃️ SQLite: Users + Feedback]
-Feedback[User Feedback (Rating + Comments)] --> DB
 
 
 
