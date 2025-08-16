@@ -32,7 +32,31 @@ It adds a **human-like judgment layer** over AI outputs to guide founders with d
 
 ---
 
-## 🧠 Architecture
+## Sample Videos
+- [📼 VET Step — Feasibility Analysis](screenshots/vet.mp4)
+- [📼 SCOPE Step — 30-Day MVP Plan](screenshots/scope.mp4)
+
+## Sample Reports
+- [🧾 VET Report (PDF)](samples/xq_vet_report.pdf)
+- [🧾 SCOPE Report (PDF)](samples/xq_scope_report.pdf)
+
+## Tech Stack
+
+Python 3.10
+Groq API (LLM)
+ReportLab (PDF)
+Streamlit (UI)
+SQLite (Local DB)
+
+## About Me
+
+I’m Arindam Kar — fractional CTO and systems thinker with 23+ years in enterprise IT and AI delivery.  
+I specialize in **PoC development**, **AI workflows**, and **LLM-backed automation** for startups and legacy modernization.
+
+📧 **akar@akar7a.onmicrosoft.com**  
+🔗 [LinkedIn: Arindam Kar](https://www.linkedin.com/in/arindam-kar-98085917/)  
+🏢 [GitHub Org: KriyaLab](https://github.com/KriyaLab)
+## Architecture
 
 ```sora
 title: XQ System Architecture
@@ -52,3 +76,6 @@ PDF3 --> Reports
 PDF4 --> Reports
 User --> DB[🗃️ SQLite: Users + Feedback]
 Feedback[User Feedback (Rating + Comments)] --> DB
+
+
+
