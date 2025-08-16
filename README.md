@@ -8,10 +8,12 @@
   <img src="https://img.shields.io/badge/UI-Streamlit-green" />
 </p>
 
+
 > **Showcase Only**  
 > This repo demonstrates the architecture, UI, and outcomes of a working product.  
 > The production code and pipelines are proprietary and available **under NDA**.  
 > To request a demo: **akar@akar7a.onmicrosoft.com**
+> **Tags:** `ocr` · `llm` · `google-vision` · `streamlit` · `AI OCR` · `ai-showcase`
 
 # XQ – Human Judgment Layer Over AI Reports
 
